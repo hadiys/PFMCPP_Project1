@@ -52,84 +52,84 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
+//  Noun: synth
+//  action 1: synth.playNote();
 
-//  action 2:
+//  action 2: synth.arpeggiateNotes();
 
-//  action 3:
+//  action 3: synth.modulateEffect();
 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun: audioPlayer
+//  action 1: audioPlayer.playAudio();
 
-//  action 2:
+//  action 2: audioPlayer.rewind();
 
-//  action 3:
+//  action 3:  audioPlayer.playNextFile();
 
 //  3)
-//  Noun:
-//  action 1:
+//  Noun: trackpad
+//  action 1: trackpad.rightClick();
 
-//  action 2:
+//  action 2: trackpad.scroll();
 
-//  action 3:
+//  action 3: trackpad.moveCursor();
 
 //  4)
-//  Noun:
-//  action 1:
+//  Noun: clock
+//  action 1: clock.displayHour();
 
-//  action 2:
+//  action 2: clock.dislayMinute();
 
-//  action 3:
+//  action 3: clock.displaySecond();
 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun: elevator
+//  action 1: elevator.openDoor();
 
-//  action 2:
+//  action 2: elevator.goToFloor();
 
-//  action 3:
+//  action 3: elevator.closeDoor();
 
 //  6)
-//  Noun:
-//  action 1:
+//  Noun: printer
+//  action 1: printer.drawPaper();
 
-//  action 2:
+//  action 2: printer.alignCartridge();
 
-//  action 3:
+//  action 3: printer.queuePrintJob();
 
 //  7)
-//  Noun:
-//  action 1:
+//  Noun: dog
+//  action 1: dog.bark();
 
-//  action 2:
+//  action 2: dog.fetch();
 
-//  action 3:
+//  action 3: dog.snore();
 
 //  8)
-//  Noun:
-//  action 1:
+//  Noun: git
+//  action 1: git.fork();
 
-//  action 2:
+//  action 2: git.import();
 
-//  action 3:
+//  action 3: git.clone();
 
 //  9)
-//  Noun:
-//  action 1:
+//  Noun: coffeeMaker
+//  action 1: coffeeMaker.pourEspresso();
 
-//  action 2:
+//  action 2: coffeeMaker.pourHotWater();
 
-//  action 3:
+//  action 3: coffeeMaker.steam();
 
 //  10)
-//  Noun:
-//  action 1:
+//  Noun: phone
+//  action 1: phone.dial();
 
-//  action 2:
+//  action 2: phone.takePicture();
 
-//  action 3:
+//  action 3: phone.openApp();
 
 
 
