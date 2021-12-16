@@ -53,83 +53,114 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 //  1)
 //  Noun: synth
-//  action 1: synth.playNote();
+//  action 1: The synth plays the note that's pressed on the keyboard.
+synth.playNote();
 
-//  action 2: synth.arpeggiateNotes();
+//  action 2: The synth activates its arpeggiating function.
+synth.arpeggiateNotes();
 
-//  action 3: synth.modulateEffect();
+//  action 3: A synth parameter modulates an effect.
+synth.modulateEffect();
 
 //  2)
 //  Noun: audioPlayer
-//  action 1: audioPlayer.playAudio();
+//  action 1: The audio player starts playing the current file.
+audioPlayer.playAudio();
 
-//  action 2: audioPlayer.rewind();
+//  action 2: The audio player rewinds the play position.
+audioPlayer.rewind();
 
-//  action 3:  audioPlayer.playNextFile();
+//  action 3:  The audio player retrieves and plays the next audio file. 
+audioPlayer.playNextFile();
 
 //  3)
 //  Noun: trackpad
-//  action 1: trackpad.rightClick();
+//  action 1: The trackpad produces a right-click command.
+trackpad.rightClick();
 
-//  action 2: trackpad.scroll();
+//  action 2: The trackpad scrolls a window.
+trackpad.scroll();
 
-//  action 3: trackpad.moveCursor();
+//  action 3: The trackpad moves the cursor on a window.
+trackpad.moveCursor();
 
 //  4)
 //  Noun: clock
-//  action 1: clock.displayHour();
+//  action 1: The clock screen displays the current hour.
+clock.displayHour();
 
-//  action 2: clock.dislayMinute();
+//  action 2: The clock screen displays the current minute.
+clock.dislayMinute();
 
-//  action 3: clock.displaySecond();
+//  action 3: The clock screen displays the current second.
+clock.displaySecond();
 
 //  5)
 //  Noun: elevator
-//  action 1: elevator.openDoor();
+//  action 1: The elevator door opens.
+elevator.openDoor();
 
-//  action 2: elevator.goToFloor();
+//  action 2: The elevator goes to the designated floor.
+elevator.goToFloor();
 
-//  action 3: elevator.closeDoor();
+//  action 3: The elevator door closes.
+elevator.closeDoor();
 
 //  6)
 //  Noun: printer
-//  action 1: printer.drawPaper();
+//  action 1: The printer draws a paper.
+printer.drawPaper();
 
-//  action 2: printer.alignCartridge();
+//  action 2: The printer aligns its cartridges.
+printer.alignCartridge();
 
-//  action 3: printer.queuePrintJob();
+//  action 3: The printer queues a requested print job.
+printer.queuePrintJob();
 
 //  7)
 //  Noun: dog
-//  action 1: dog.bark();
+//  action 1: The dog barks at something. 
+dog.bark();
 
-//  action 2: dog.fetch();
+//  action 2: The dog fetches something.
+dog.fetch();
 
-//  action 3: dog.snore();
+//  action 3: The dog snores in its sleep.
+dog.snore();
 
 //  8)
 //  Noun: git
-//  action 1: git.fork();
+//  action 1: Git forks a repository
+git.fork();
 
-//  action 2: git.import();
+//  action 2: Git imports a repository
+git.import();
 
-//  action 3: git.clone();
+//  action 3: Git clones a repository
+git.clone();
 
 //  9)
 //  Noun: coffeeMaker
-//  action 1: coffeeMaker.pourEspresso();
+//  action 1: The coffee-maker pours a shot of espresso
+coffeeMaker.pourEspresso();
 
-//  action 2: coffeeMaker.pourHotWater();
+//  action 2: The coffee-maker pours some hot water.
+coffeeMaker.pourHotWater();
 
-//  action 3: coffeeMaker.steam();
+//  action 3: The coffee-maker produces lots of steam.
+coffeeMaker.steam();
 
 //  10)
 //  Noun: phone
-//  action 1: phone.dial();
+//  action 1: The phone dials the inputted number.
+phone.dial();
 
-//  action 2: phone.takePicture();
+//  action 2: The phone captures a photo.
+phone.takePicture();
 
-//  action 3: phone.openApp();
+//  action 3: The phone runs an app. 
+phone.runApp();
+
 
 
 
