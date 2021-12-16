@@ -52,26 +52,26 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun: synth
+//  Noun: polyphonicSynth
 //  action 1: The synth plays the note that's pressed on the keyboard.
-synth.playNote();
+polyphonicSynth.playCurrentlyPressedNote();
 
 //  action 2: The synth activates its arpeggiating function.
-synth.arpeggiateNotes();
+polyphonicSynth.activateArpeggiation();
 
-//  action 3: A synth parameter modulates an effect.
-synth.modulateEffect();
+//  action 3: The synth modulates an effect using one of its parameters.
+polyphonicSynth.modulateEffectUsingParameter();
 
 //  2)
 //  Noun: audioPlayer
-//  action 1: The audio player starts playing the current file.
-audioPlayer.playAudio();
+//  action 1: The audio player starts playing the current audio file.
+audioPlayer.playCurrentAudioFile();
 
 //  action 2: The audio player rewinds the play position.
-audioPlayer.rewind();
+audioPlayer.rewindPlayPosition();
 
 //  action 3:  The audio player retrieves and plays the next audio file. 
-audioPlayer.playNextFile();
+audioPlayer.retrieveAndPlayNextAudioFile();
 
 //  3)
 //  Noun: trackpad
@@ -79,7 +79,7 @@ audioPlayer.playNextFile();
 trackpad.rightClick();
 
 //  action 2: The trackpad scrolls a window.
-trackpad.scroll();
+trackpad.scrollWindow();
 
 //  action 3: The trackpad moves the cursor on a window.
 trackpad.moveCursor();
@@ -112,10 +112,10 @@ elevator.closeDoor();
 printer.drawPaper();
 
 //  action 2: The printer aligns its cartridges.
-printer.alignCartridge();
+printer.alignCartridges();
 
-//  action 3: The printer queues a requested print job.
-printer.queuePrintJob();
+//  action 3: The printer queues an incoming print job.
+printer.queueIncomingPrintJob();
 
 //  7)
 //  Noun: dog
@@ -142,21 +142,21 @@ git.clone();
 //  9)
 //  Noun: coffeeMaker
 //  action 1: The coffee-maker pours a shot of espresso
-coffeeMaker.pourEspresso();
+coffeeMaker.pourEspressoShot();
 
-//  action 2: The coffee-maker pours some hot water.
+//  action 2: The coffee-maker pours hot water.
 coffeeMaker.pourHotWater();
 
 //  action 3: The coffee-maker produces lots of steam.
-coffeeMaker.steam();
+coffeeMaker.produceLotsOfSteam();
 
 //  10)
 //  Noun: phone
 //  action 1: The phone dials the inputted number.
-phone.dial();
+phone.dialInputtedNumber();
 
 //  action 2: The phone captures a photo.
-phone.takePicture();
+phone.capturePhoto();
 
 //  action 3: The phone runs an app. 
 phone.runApp();
